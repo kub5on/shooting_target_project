@@ -73,4 +73,6 @@ draw_target(ax)
 for x, y in shots:
     ax.plot(x, y, 'ro')  # dodanie czerwonego punktu
 
+plt.savefig("visualization.png")
 plt.show()
+plt.close()
